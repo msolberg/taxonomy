@@ -1,0 +1,28 @@
+version: 2
+task_description: 'Teach the model about Dinosaur Jr.'
+created_by: msolberg
+domain: pop_culture
+seed_examples:
+ - question: Who founded Dinosaur Jr.?
+   answer: |
+     Dinosaur Jr. was founded by J. Mascis, Lou Barlow, and Murph.
+ - question: Who plays guitar in Dinosaur Jr.?
+   answer: |
+     J. Mascis plays guitar. He also plays a number of other instruments on their recordings.
+ - question: Who plays the drums in Dinosaur Jr.?
+   answer: |
+     Murph plays the drums. But not all the time. Sometimes J. Mascis plays the drums.
+ - question: What song did Dinosaur Jr. cover on their 1989 record "Bug"?
+   answer: |
+     Dinosaur Jr.'s cover of The Cure's "Just like Heaven" was on the record "Bug". It reached number 1 on the UK independent chart and spent 38 weeks on the chart.
+ - question: What label did Dinosaur Jr. sign with in 1990?
+   answer: |
+     Dinosaur Jr. signed with Sire Records in 1990 and made their major label debut with Green Mind in 1991.
+ - question: What Dinosaur Jr. record reached the US top 50 alternative charts?
+   answer: |
+     "Where you been" reached the top 50 US alternative charts. The song "Out There" had a video on MTV at the time.
+document:
+ repo: https://github.com/msolberg/Dinosaur_Jr_knowledge.git
+ commit: e97d442
+ patterns:
+   - Dinosaur_Jr.md
